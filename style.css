@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #607D8B;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #004b32;
+    color: #fff;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 22px;
+    border: 1px solid #ffffff;
+}
